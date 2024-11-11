@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header class="cabeca">
+        <div class="container">
+            <h1><img class="logo" src="img/Logo1-removebg-preview.png" alt="Logo da livraria"></h1>
+            <nav class="navegacao">
+                <ul>
+                    <li><a class="ancora" href="index.html">principal</a></li>
+                    <li><a class="ancora"  href="produtos.html">cortes</a></li>
+                    <li><a class="ancora"  href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container_cont">
+        <form action="formes">
+
+            <label for="nome_sobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nome_sobrenome" class="input_padrao" required >
+
+            <label for="tele">Telefone</label>
+            <input type="text"id="tele" class="input_padrao"required placeholder="(xx)xxxx-xxxx">
+
+
+            <label for="mensagem">Mensagem</label>
+            <textarea  id="mensagem" cols="30" rows="10" required></textarea>
+
+            <fieldset>
+                <legend>Preferencia de contato</legend>
+                
+
+                <label for="radio_telefone"> <input type="radio" name="contato" value="telefone" id="radio_telefone">Telefone</label>
+                
+
+                <label for="radio_whatsapp"> <input type="radio" name="contato" value="whatsApp" id="radio_whatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+            <fieldset>
+                <p>Periodo</p>
+                    <select name="" id="">
+                        <option value="">Manha</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+            </fieldset>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+            
+        </form>
+        <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Segunda</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h as 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img class="rodape" src="img/Logo2-removebg-preview.png" alt="Logo da livraria" >
+        <p class="copy_roda">&copy; Melhores Livros</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.corpo{
+    background:#000000;
+}
+.banner{
+    width: 100%;  
+    border-radius: 5%; 
+}
+.titulo{
+    text-align: center;
+    height: 50px;
+    border: #DA70D6 solid 5px;
+    padding-top: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
+.texto{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.alge{
+    color:blue;
+    color: #ffffff;
+}
+.itens{
+    font-style: italic;
+    color: #ffffff;
+    margin: 30px;
+}
+.titulo_1{
+    color: #ffffff;
+    text-align: center;
+}
+.livros{
+    border: #00FF00 solid 5px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.imagem_1{
+    width: 50%;
+    border-radius: 10%;
+    padding: 10px;
+    margin-right: 5px;
+}
+.lista{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 20%;
+    font-size: large;
+}
